@@ -5,7 +5,7 @@
 
 typedef struct global
 {
-    Render_state render;
-} Global global;
+    Render_State render;
+} Global;
 extern Global global;
 #endif
