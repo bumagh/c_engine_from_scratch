@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "glad.h": "c"
+        "glad.h": "c",
+        "global.h": "c",
+        "sdl.h": "c",
+        "util.h": "c"
     }
 }
