@@ -36,7 +36,7 @@ u32 render_shader_create(const char *path_vert, const char *path_frag) {
         glGetShaderInfoLog(shader_fragment, 512, NULL, log);
         ERROR_EXIT("Error compiling fragment shader. %s\n", log);
     }
-
+ 
     u32 shader = glCreateProgram();
     glAttachShader(shader, shader_vertex);
     glAttachShader(shader, shader_fragment);

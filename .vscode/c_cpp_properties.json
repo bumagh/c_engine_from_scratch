@@ -4,17 +4,17 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "E:\\env\\c_game_engine_env\\include"
+                "C:\\1env\\c_game_engine_env\\include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "E:/env/mingw810seh/mingw64/bin/gcc.exe",
+            "compilerPath": "C:\\1env\\mingw13\\mingw64\\bin\\gcc.exe",
             "cStandard": "c99",
             "cppStandard": "c++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
